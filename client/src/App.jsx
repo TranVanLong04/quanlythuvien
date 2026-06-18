@@ -7,6 +7,7 @@ import { requestGetAllProduct, requestGetTopBorrowedProduct } from './config/req
 import { useState } from 'react';
 import { Carousel } from 'antd';
 import 'antd/dist/reset.css';
+import ZaloButton from './components/ZaloButton';
 
 function App() {
     const [dataProduct, setDataProduct] = useState([]);
@@ -282,6 +283,10 @@ function App() {
             <footer id="lien-he">
                 <Footer />
             </footer>
+
+            <div className="fixed right-4 bottom-4 z-50 md:right-6 md:bottom-6">
+                <ZaloButton className="shadow-2xl" />
+            </div>
 
             <style jsx>{`
                 :global(.slick-dots) {
