@@ -160,6 +160,14 @@ function Header() {
                         >
                             Liên hệ
                         </button>
+                        <a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSfPqGS_9bpZ2-csOKxgDicbex6yRZ9HFyG8-bedfAwNJDb3_Q/viewform"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-slate-600 hover:text-[#b87333] font-semibold transition-colors duration-300 text-base cursor-pointer"
+                        >
+                            Hỗ trợ
+                        </a>
                     </nav>
 
                     {/* Search Bar */}
